@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+char str1[10]="hellogg";
+char str2[10]="hellogg";
+   // printf("enter two strings\n");
+    //scanf("%s\n%s\n",str1,str2);
+    for(i=0;str1[i]==str2[i];i++)
+    {
+        if(str2[i]=='\0')
+        {
+       printf("strings are equal");
+       return 0;
+            }
+    }
+printf("strings are not same");
+} 
