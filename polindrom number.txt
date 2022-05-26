@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+ int main()
+{
+    int n,r,sum=0,y;
+    printf("enter number");
+    scanf("%d",&n);
+    y=n;
+    while(n>0)
+    {
+        r=n%10;
+        sum=sum*10+r;
+        n=n/10;
+        }
+    if(y==sum)
+    {
+        printf("given nummber is polindrome");
+        }
+    else
+    {
+        printf("not a palindrom");
+        }
+   
+}
+    

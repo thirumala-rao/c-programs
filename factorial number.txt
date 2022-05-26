@@ -1,0 +1,31 @@
+/// useing for loop/////
+#include <stdio.h>
+ void main()
+ {
+    int n,fact=1,i;
+    printf("enter number");
+    scanf("%d",&n);
+ for(i=1;i<=n;i++)
+ {
+     fact=fact*i;
+    
+ }
+printf("factoiral is %d",fact);
+}
+
+
+/// useing while loop///
+
+#include <stdio.h>
+ void main()
+ {
+    int n,fact=1,i;
+    printf("enter number");
+    scanf("%d",&n);
+ for(i=1;i<=n;i++)
+ {
+     fact=fact*i;
+    
+ }
+printf("factoiral is %d",fact);
+}
